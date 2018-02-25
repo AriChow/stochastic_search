@@ -13,7 +13,7 @@ from sklearn.preprocessing import StandardScaler
 import glob
 
 class image_classification_pipeline(object):
-	def __init__(self, kwargs, ml_type=None, data_name=None, data_loc=None, type1=None, val_splits=None, test_size=None, fe=None, dr=None, la=None):
+	def __init__(self, hyper, ml_type=None, data_name=None, data_loc=None, type1=None, val_splits=None, test_size=None, fe=None, dr=None, la=None):
 		self.feature_extraction = fe
 		self.dimensionality_reduction = dr
 		self.learning_algorithm = la
@@ -26,13 +26,13 @@ class image_classification_pipeline(object):
 		self.accuracy = 0
 		self.result = None
 		self.type1 = type1
-		r = glob.glob(self.data_location + 'features/' + self.type1 + '/*.npz')
-		for i in range(len(r)):
-			if self.feature_extraction in r[i] and self.feature_extraction == 'haralick':
-				os.remove(r[i])
-		for key, value in kwargs.items():
-			self.__setattr__(key, value)
-		self.kwargs = kwargs
+		# r = glob.glob(self.data_location + 'features/' + self.type1 + '/*.npz')
+		# for i in range(len(r)):
+		# 	if self.feature_extraction in r[i] and self.feature_extraction == 'haralick':
+		# 		os.remove(r[i])
+		for key in hyper.keys():
+			self.__setattr__(key, hyper[key])
+		self.kwargs = hyper
 
 	def get_error(self):
 		return self.result
@@ -236,7 +236,7 @@ class image_classification_pipeline(object):
 			return f.f.arr_0[X, :]
 		else:
 			f = self.CNN_all_features(names, 'VGG')
-			np.savez(open(self.data_location + 'features/' + self.type1 + '/VGG_' + self.data_name + '.npz', 'wb'), f)
+			# np.savez(open(self.data_location + 'features/' + self.type1 + '/VGG_' + self.data_name + '.npz', 'wb'), f)
 			return f[X, :]
 
 	def inception_all_features(self, names, X):
@@ -245,7 +245,7 @@ class image_classification_pipeline(object):
 			return f.f.arr_0[X, :]
 		else:
 			f = self.CNN_all_features(names, 'inception')
-			np.savez(open(self.data_location + 'features/' + self.type1 + '/inception_' + self.data_name + '.npz', 'wb'), f)
+			# np.savez(open(self.data_location + 'features/' + self.type1 + '/inception_' + self.data_name + '.npz', 'wb'), f)
 			return f[X, :]
 
 
