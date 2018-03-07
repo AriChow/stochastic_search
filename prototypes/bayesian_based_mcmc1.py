@@ -274,15 +274,15 @@ class bayesian_MCMC():
 		self.times = []
 		self.error_curves = []
 		cs = ConfigurationSpace()
-		feature_extraction = CategoricalHyperparameter("feature_extraction", ["haralick", "VGG", "inception", "naive_feature_extraction"],
+		feature_extraction = CategoricalHyperparameter("feature_extraction", ["haralick", "VGG", "inception"],
 													  default="haralick")
 		cs.add_hyperparameter(feature_extraction)
 
-		dimensionality_reduction = CategoricalHyperparameter("dimensionality_reduction", ["PCA", "ISOMAP", "naive_dimensionality_reduction"],
+		dimensionality_reduction = CategoricalHyperparameter("dimensionality_reduction", ["PCA", "ISOMAP"],
 															 default="PCA")
 		cs.add_hyperparameter(dimensionality_reduction)
 
-		learning_algorithm = CategoricalHyperparameter("learning_algorithm", ["SVM", "RF", "naive_learning_algorithm"], default="RF")
+		learning_algorithm = CategoricalHyperparameter("learning_algorithm", ["SVM", "RF"], default="RF")
 		cs.add_hyperparameter(learning_algorithm)
 
 
@@ -332,4 +332,4 @@ class bayesian_MCMC():
 		self.all_incumbents = incumbents1
 		self.error_curves.append(incs)
 		self.times = times
-		pickle.dump(self, open(self.results_loc + 'intermediate/SMAC/SMAC_' + self.data_name + '_run_' + str(self.run) + '_full_naive.pkl', 'wb'))
+		pickle.dump(self, open(self.results_loc + 'intermediate/SMAC/SMAC_' + self.data_name + '_run_' + str(self.run) + '_full.pkl', 'wb'))

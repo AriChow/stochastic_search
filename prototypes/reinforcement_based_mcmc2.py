@@ -43,6 +43,7 @@ class RL_MCMC():
 		paths = []
 		for p1 in pipeline:
 			errs.append(1.0 / np.sqrt(p1[0].get_error()))
+			# errs.append(np.random.random())
 			p = p1[0].kwargs
 			paths.append(p1[1])
 			hypers.append(p)
@@ -86,7 +87,7 @@ class RL_MCMC():
 			h1 = hypers[r1[0]]
 
 			hyper = {}  # Suggested hyper-parameter values
-			for ind_h, h in enumerate(h1.keys()):
+			for h in h1.keys():
 				pipeline_values = self.pipeline[h]
 				if h in discrete:
 					lenh = len(pipeline_values)
@@ -96,7 +97,7 @@ class RL_MCMC():
 					ind = pipeline_values.index(h1[h])
 					possible_values = []
 					for i1 in range(ind, -1, -1):
-						if len(possible_values) > 2:
+						if len(possible_values) > sample_space // 2:
 							break
 						possible_values.append(pipeline_values[i1])
 					if ind < lenh - 1:
@@ -154,6 +155,7 @@ class RL_MCMC():
 			err = []
 			for j in range(len(p)):
 				err.append(p[j][0].get_error())
+				# err.append(np.random.random())
 			best_error = np.amin(err)
 			if best_error >= best_error1:
 				cnt += 1
@@ -171,5 +173,5 @@ class RL_MCMC():
 		self.times = times
 		self.best_pipelines = best_pipelines
 		pickle.dump(self, open(
-			self.results_loc + 'intermediate/RL_MCMC/' + self.type1 + '_' + self.data_name + '_run_' + str(self.run) + '.pkl',
+			self.results_loc + 'intermediate/SS/' + self.type1 + '_' + self.data_name + '_run_' + str(self.run) + '_full.pkl',
 			'wb'))

@@ -18,9 +18,9 @@ for f in files:
 	if os.path.exists(f):
 		os.remove(f)
 pipeline = {}
-pipeline['feature_extraction'] = ["VGG", "haralick", "inception", "naive_feature_extraction"]
-pipeline['dimensionality_reduction'] = ["PCA", "ISOMAP", "naive_dimensionality_reduction"]
-pipeline['learning_algorithm'] = ["SVM", "RF", "naive_learning_algorithm"]
+pipeline['feature_extraction'] = ["VGG", "haralick", "inception"]
+pipeline['dimensionality_reduction'] = ["PCA", "ISOMAP"]
+pipeline['learning_algorithm'] = ["SVM", "RF"]
 pipeline['haralick_distance'] = range(1, 4)
 pipeline['pca_whiten'] = [True, False]
 pipeline['n_neighbors'] = range(3, 8)
