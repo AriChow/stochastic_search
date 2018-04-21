@@ -1,9 +1,0 @@
-"CPU Time Used","Estimated Training Performance","Wallclock Time","Incumbent ID","Automatic Configurator (CPU) Time","Configuration..."
-0.000000, 2147483648.000000, 0.000431, 1, 0.000431, dimensionality_reduction=''PCA'', feature_extraction=''haralick'', learning_algorithm=''RF'', haralick_distance='1', max_features='0.5', n_estimators='10', pca_whiten=''true''
-63.209513, 7.599998, 63.255093, 1, 0.045579, dimensionality_reduction=''PCA'', feature_extraction=''haralick'', learning_algorithm=''RF'', haralick_distance='1', max_features='0.5', n_estimators='10', pca_whiten=''true''
-289.604055, 0.946507, 290.148870, 2, 0.544815, dimensionality_reduction=''PCA'', feature_extraction=''haralick'', learning_algorithm=''SVM'', haralick_distance='1', pca_whiten=''true'', svm_C='39.23881652461074', svm_gamma='3.78450273078237'
-563.245770, 0.721573, 564.649911, 3, 1.404141, dimensionality_reduction=''PCA'', feature_extraction=''VGG'', learning_algorithm=''RF'', max_features='0.5125815804074867', n_estimators='116', pca_whiten=''false''
-689.281575, 0.712588, 691.285813, 4, 2.004238, dimensionality_reduction=''PCA'', feature_extraction=''VGG'', learning_algorithm=''RF'', max_features='0.41444530887994063', n_estimators='208', pca_whiten=''false''
-695.992934, 0.564733, 698.140999, 5, 2.148065, dimensionality_reduction=''naive_dimensionality_reduction'', feature_extraction=''VGG'', learning_algorithm=''RF'', max_features='0.4467028357078253', n_estimators='62'
-757.452734, 0.551538, 760.276829, 6, 2.824095, dimensionality_reduction=''naive_dimensionality_reduction'', feature_extraction=''VGG'', learning_algorithm=''RF'', max_features='0.37281836748017905', n_estimators='29'
-1163.685267, 0.540497, 1168.904634, 7, 5.219366, dimensionality_reduction=''naive_dimensionality_reduction'', feature_extraction=''VGG'', learning_algorithm=''RF'', max_features='0.48371571717701356', n_estimators='227'

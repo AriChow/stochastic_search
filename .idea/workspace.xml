@@ -2,9 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d98bf3-303c-479f-9482-11755a316bbe" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SS_brain.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SS_breast.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SS_matsc1.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:44:45_(890180)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:44:45_(890180)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:44:45_(890180)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:44:45_(890180)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:44:45_(890180)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:00_(831362)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:00_(831362)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:00_(831362)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:00_(831362)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:00_(831362)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:08_(366040)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:08_(366040)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:08_(366040)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:08_(366040)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:08_(366040)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:15_(916459)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:15_(916459)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:15_(916459)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:15_(916459)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_10:45:15_(916459)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_13:58:35_(972481)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_13:58:35_(972481)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_13:58:35_(972481)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_13:58:35_(972481)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_13:58:35_(972481)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_17:16:39_(541542)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_17:16:39_(541542)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_17:16:39_(541542)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_17:16:39_(541542)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_17:16:39_(541542)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_20:13:21_(224811)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_20:13:21_(224811)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_20:13:21_(224811)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_20:13:21_(224811)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_20:13:21_(224811)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_02:13:07_(214743)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_02:13:07_(214743)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_02:13:07_(214743)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_02:13:07_(214743)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_02:13:07_(214743)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_11:06:48_(523212)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_11:06:48_(523212)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_11:06:48_(523212)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_11:06:48_(523212)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_13:00:36_(339241)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_13:00:36_(339241)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_13:00:36_(339241)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_13:00:36_(339241)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_13:00:36_(339241)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_19:43:48_(417164)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_19:43:48_(417164)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_19:43:48_(417164)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_19:43:48_(417164)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-23_19:43:48_(417164)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_01:34:50_(420007)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_01:34:50_(420007)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_01:34:50_(420007)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_01:34:50_(420007)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_01:34:50_(420007)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_12:24:43_(575468)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_12:24:43_(575468)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_12:24:43_(575468)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_12:24:43_(575468)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-24_12:24:43_(575468)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-25_18:32:54_(695062)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-25_18:32:54_(695062)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-25_18:32:54_(695062)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prototypes/smac3-output_2018-02-25_18:32:54_(695062)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_bone_run_1.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_bone_run_2.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_bone_run_3.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_bone_run_4.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_bone_run_5.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_brain_run_1.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_brain_run_2.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_brain_run_3.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_brain_run_4.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_brain_run_5.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_breast_run_1.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_breast_run_2.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_breast_run_3.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_breast_run_4.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_breast_run_5.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset1_run_1.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset1_run_2.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset1_run_3.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset1_run_4.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset1_run_5.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset2_run_1.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset2_run_2.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset2_run_3.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset2_run_4.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/results/intermediate/TPE/TPE_matsc_dataset2_run_5.pkl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-01_14:56:18_(183135)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-01_14:56:18_(183135)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-01_14:56:18_(183135)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-01_14:56:18_(183135)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-01_14:56:18_(183135)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/runhistory.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_old.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-14_08:18:40_(994009)_run1/configspace.pcs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-14_08:18:40_(994009)_run1/scenario.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-14_08:18:40_(994009)_run1/traj_aclib2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/smac3-output_2018-03-14_08:18:40_(994009)_run1/traj_old.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_aclib2.json" afterPath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_aclib2.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_old.csv" afterPath="$PROJECT_DIR$/smac3-output_2018-03-02_08:59:31_(901071)_run1/traj_old.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SS_main.py" afterPath="$PROJECT_DIR$/SS_main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SS_runs.sh" afterPath="$PROJECT_DIR$/SS_runs.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SS_runs_CCNI.sh" afterPath="$PROJECT_DIR$/SS_runs_CCNI.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py" afterPath="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,45 +135,85 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="error_curves_plots.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototypes/error_curves_plots.py">
+      <file leaf-file-name="SS_main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6916">
-              <caret line="266" column="15" lean-forward="false" selection-start-line="261" selection-start-column="4" selection-end-line="266" selection-end-column="15" />
+            <state relative-caret-position="780">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
-                <element signature="e#121#134#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error_curve.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/prototypes/error_curve.py">
+      <file leaf-file-name="reinforcement_based_mcmc.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+            <state relative-caret-position="1372">
+              <caret line="148" column="33" lean-forward="false" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
               <folding>
-                <element signature="e#103#116#0" expanded="true" />
+                <element signature="e#0#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reinforcement_based_mcmc2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py">
+      <file leaf-file-name="SS_runs.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_runs.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3458">
-              <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+            <state relative-caret-position="104">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SS_main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SS_main.py">
+      <file leaf-file-name="SS_runs_CCNI.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_runs_CCNI.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="260">
+              <caret line="10" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SS_breast.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_breast.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SS_brain.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_brain.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SS_matsc1.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_matsc1.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SS_matsc2.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SS_matsc2.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -117,14 +275,21 @@
         <option value="$PROJECT_DIR$/prototypes/SS_main.py" />
         <option value="$PROJECT_DIR$/prototypes/data_analytic_pipeline.py" />
         <option value="$PROJECT_DIR$/.idea/SS_runs.sh" />
-        <option value="$PROJECT_DIR$/SS_runs_CCNI.sh" />
         <option value="$PROJECT_DIR$/SMAC_main.py" />
         <option value="$PROJECT_DIR$/SMAC_runs.sh" />
-        <option value="$PROJECT_DIR$/SS_runs.sh" />
         <option value="$PROJECT_DIR$/prototypes/bayesian_based_mcmc1.py" />
         <option value="$PROJECT_DIR$/prototypes/random_based_mcmc1.py" />
-        <option value="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py" />
         <option value="$PROJECT_DIR$/prototypes/error_curve.py" />
+        <option value="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py" />
+        <option value="$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/reinforcement_based_mcmc.py" />
+        <option value="$PROJECT_DIR$/SS_runs_CCNI.sh" />
+        <option value="$PROJECT_DIR$/SS_runs.sh" />
+        <option value="$PROJECT_DIR$/SS_brain.sh" />
+        <option value="$PROJECT_DIR$/SS_matsc1.sh" />
+        <option value="$PROJECT_DIR$/SS_matsc2.sh" />
+        <option value="$PROJECT_DIR$/SS_breast.sh" />
+        <option value="$PROJECT_DIR$/SS_main.py" />
+        <option value="$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py" />
       </list>
     </option>
   </component>
@@ -176,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.error_curve">
+  <component name="RunManager" selected="Python.SS_main (1)">
     <configuration default="false" name="TPE" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -474,14 +639,39 @@
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py</url>
-          <line>88</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/prototypes/error_curve.py</url>
           <line>51</line>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SS_main.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py</url>
+          <line>95</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -494,75 +684,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="60" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prototypes/error_curves_plots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6916">
-          <caret line="266" column="15" lean-forward="false" selection-start-line="261" selection-start-column="4" selection-end-line="266" selection-end-column="15" />
-          <folding>
-            <element signature="e#121#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/error_curve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#103#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3458">
-          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/error_curves_plots.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6916">
-          <caret line="266" column="15" lean-forward="false" selection-start-line="261" selection-start-column="4" selection-end-line="266" selection-end-column="15" />
-          <folding>
-            <element signature="e#121#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3458">
-          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SS_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/error_curve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#103#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/ranking_plots.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -578,7 +704,7 @@
         <state relative-caret-position="1404">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#121#134#0" expanded="true" />
+            <element signature="e#121#134#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -707,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda2/envs/py36/lib/python3.6/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/data_analytic_pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -723,13 +842,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/SS_main.py" />
     <entry file="file://$PROJECT_DIR$/.idea/SS_runs.sh" />
-    <entry file="file://$PROJECT_DIR$/SS_runs_CCNI.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/ranking_plots.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="592">
@@ -737,13 +849,6 @@
           <folding>
             <element signature="e#127#140#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SS_runs.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -780,33 +885,117 @@
         <state relative-caret-position="6916">
           <caret line="266" column="15" lean-forward="false" selection-start-line="261" selection-start-column="4" selection-end-line="266" selection-end-column="15" />
           <folding>
-            <element signature="e#121#134#0" expanded="true" />
+            <element signature="e#121#134#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/error_curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding>
+            <element signature="e#103#116#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prototypes/smac3-output_2018-02-22_16:07:21_(618114)_run1/reinforcement_based_mcmc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="149" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3458">
-          <caret line="137" column="8" lean-forward="false" selection-start-line="137" selection-start-column="8" selection-end-line="137" selection-end-column="8" />
+        <state relative-caret-position="206">
+          <caret line="132" column="8" lean-forward="false" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda2/envs/py36/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_runs_CCNI.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS-matsc2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_matsc2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_matsc1.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_brain.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="61" lean-forward="false" selection-start-line="3" selection-start-column="61" selection-end-line="3" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_breast.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SS_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="780">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SS_runs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prototypes/error_curve.py">
+    <entry file="file://$PROJECT_DIR$/prototypes/reinforcement_based_mcmc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="46" column="75" lean-forward="false" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+        <state relative-caret-position="1372">
+          <caret line="148" column="33" lean-forward="false" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
           <folding>
-            <element signature="e#103#116#0" expanded="true" />
+            <element signature="e#0#75#0" expanded="true" />
           </folding>
         </state>
       </provider>

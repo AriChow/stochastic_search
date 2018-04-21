@@ -42,8 +42,8 @@ class RL_MCMC():
 		hypers = []
 		paths = []
 		for p1 in pipeline:
-			errs.append(1.0 / np.sqrt(p1[0].get_error()))
-			# errs.append(np.random.random())
+			# errs.append(1.0 / np.sqrt(p1[0].get_error()))
+			errs.append(np.random.random())
 			p = p1[0].kwargs
 			paths.append(p1[1])
 			hypers.append(p)
@@ -149,13 +149,13 @@ class RL_MCMC():
 			g = image_classification_pipeline(hyper, ml_type='validation', data_name=self.data_name,
 											  data_loc=self.data_loc, type1='RL1', fe=path[0], dr=path[1], la=path[2],
 											  val_splits=3, test_size=0.2)
-			g.run()
+			# g.run()
 			pipelines.append((g, path))
 			p = pipelines
 			err = []
 			for j in range(len(p)):
-				err.append(p[j][0].get_error())
-				# err.append(np.random.random())
+				# err.append(p[j][0].get_error())
+				err.append(np.random.random())
 			best_error = np.amin(err)
 			if best_error >= best_error1:
 				cnt += 1

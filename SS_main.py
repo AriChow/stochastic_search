@@ -1,6 +1,6 @@
 import numpy as np
 import os
-from prototypes.reinforcement_based_mcmc2 import RL_MCMC
+from prototypes.reinforcement_based_mcmc import RL_MCMC
 import sys
 
 if __name__=='__main__':
@@ -10,6 +10,7 @@ if __name__=='__main__':
 	data_home = home + '/' + place + '/EP_project/data/'
 	results_home = home + '/' + place + '/stochastic_search/results/'
 	num_iters = 51
+	cutoff_time = 36000
 	start = int(sys.argv[3])
 	end = int(sys.argv[4])
 	# Empty features directory
@@ -34,6 +35,6 @@ if __name__=='__main__':
 	# CONTROL
 	type1 = 'RL_MCMC'
 	for i in range(start, end):
-		rm = RL_MCMC(data_name=dataset, data_loc=data_home, results_loc=results_home, run=i+1, type1=type1, pipeline=pipeline, path_resources=12, hyper_resources=1, iters=num_iters)
+		rm = RL_MCMC(data_name=dataset, data_loc=data_home, cutoff_time=cutoff_time, results_loc=results_home, run=i+1, type1=type1, pipeline=pipeline, path_resources=12, hyper_resources=1, iters=num_iters)
 		rm.populate_paths()
 		rm.rlMcmc()
